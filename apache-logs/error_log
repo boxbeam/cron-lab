@@ -1,0 +1,20 @@
+[Thu Oct 29 18:11:16.483308 2020] [suexec:notice] [pid 11988] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Oct 29 18:11:16.504365 2020] [lbmethod_heartbeat:notice] [pid 11988] AH02282: No slotmem from mod_heartmonitor
+[Thu Oct 29 18:11:16.507451 2020] [mpm_prefork:notice] [pid 11988] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Thu Oct 29 18:11:16.507490 2020] [core:notice] [pid 11988] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Oct 29 18:26:13.640506 2020] [autoindex:error] [pid 11992] [client 65.183.147.4:52284] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Thu Oct 29 18:29:08.090554 2020] [autoindex:error] [pid 11990] [client 220.134.182.158:49887] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Thu Oct 29 19:37:48.331045 2020] [autoindex:error] [pid 12180] [client 65.183.147.4:53058] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Thu Oct 29 19:38:13.924557 2020] [autoindex:error] [pid 11992] [client 65.183.147.4:53064] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Thu Oct 29 19:38:31.349372 2020] [autoindex:error] [pid 11989] [client 65.183.147.4:53066] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Thu Oct 29 19:38:43.972821 2020] [autoindex:error] [pid 11991] [client 65.183.147.4:53072] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Thu Oct 29 19:42:29.641635 2020] [core:error] [pid 11993] (13)Permission denied: [client 65.183.147.4:53084] AH00035: access to / denied (filesystem path '/var/www/html') because search permissions are missing on a component of the path
+[Thu Oct 29 19:42:31.085017 2020] [core:error] [pid 11993] (13)Permission denied: [client 65.183.147.4:53084] AH00035: access to / denied (filesystem path '/var/www/html') because search permissions are missing on a component of the path
+[Thu Oct 29 19:42:32.514001 2020] [core:error] [pid 11993] (13)Permission denied: [client 65.183.147.4:53084] AH00035: access to / denied (filesystem path '/var/www/html') because search permissions are missing on a component of the path
+[Thu Oct 29 19:42:45.297020 2020] [core:error] [pid 11992] (13)Permission denied: [client 65.183.147.4:53086] AH00035: access to / denied (filesystem path '/var/www/html') because search permissions are missing on a component of the path
+[Thu Oct 29 19:42:52.648986 2020] [mpm_prefork:notice] [pid 11988] AH00170: caught SIGWINCH, shutting down gracefully
+[Thu Oct 29 19:42:53.749209 2020] [suexec:notice] [pid 13451] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Oct 29 19:42:53.770016 2020] [lbmethod_heartbeat:notice] [pid 13451] AH02282: No slotmem from mod_heartmonitor
+[Thu Oct 29 19:42:53.773176 2020] [mpm_prefork:notice] [pid 13451] AH00163: Apache/2.4.6 (CentOS) configured -- resuming normal operations
+[Thu Oct 29 19:42:53.773217 2020] [core:notice] [pid 13451] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Oct 29 21:38:05.642707 2020] [cgi:error] [pid 13457] [client 74.102.39.43:36412] script not found or unable to stat: /var/www/cgi-bin/mainfunction.cgi
